@@ -2,7 +2,7 @@
   "name": "supos-devtools",
   "description": "%extension.description%",
   "displayName": "supOS DevTools",
-  "version": "0.0.5",
+  "version": "0.0.51",
   "author": "heyCHEEMS",
   "publisher": "heyCHEEMS",
   "license": "ISC",
@@ -18,6 +18,10 @@
   "icon": "./static/icon.png",
   "engines": {
     "vscode": "^1.137.0"
+  },
+  "repository": {
+    "url": "https://github.com/heyCHEEMS-jar/supos-devtools",
+    "type": "git"
   },
   "categories": [
     "Snippets",
@@ -178,8 +182,8 @@
     }
   },
   "scripts": {
-    "vsce:package": "vsce-pnpm package --allow-missing-repository --no-rewrite-relative-links",
-    "vsce:publish": "vsce-pnpm publish --allow-missing-repository --no-rewrite-relative-links",
+    "vsce:package": "vsce-pnpm package",
+    "vsce:publish": "vsce-pnpm publish",
     "vscode:prepublish": "pnpm package",
     "package": "pnpm gen && pnpm check-types && pnpm lint && node esbuild.js --production",
     "compile": "pnpm gen && pnpm check-types && pnpm lint && node esbuild.js",

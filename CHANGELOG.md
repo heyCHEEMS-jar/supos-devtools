@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.51 - 2026-11-09
+
+- 新增英文版更新日志 `CHANGELOG.en.md`，补齐历史版本记录的英文翻译
+- 中英文 README 的语言切换和更新日志链接统一改为 `heyCHEEMS-jar/supos-devtools` 仓库的 GitHub 链接
+
 ## 0.0.5 - 2026-11-06
 
 - 提供项目级 VS Code 配置项，允许用户直接查看和手动修改组件 `appId:folderName` 与本地文件绝对路径的持久化映射
