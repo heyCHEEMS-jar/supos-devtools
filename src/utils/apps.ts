@@ -1,8 +1,9 @@
 import * as vscode from 'vscode'
-import { App } from '../store'
+import type { Runtime } from '../runtime'
+import type { App } from '../store'
 import { request } from './request'
 
-export const loadApps = async (ctx: vscode.ExtensionContext, { autoLogin = true }: { autoLogin?: boolean } = {}) => {
+export const loadApps = async (ctx: Runtime, { autoLogin = true }: { autoLogin?: boolean } = {}) => {
   const config = vscode.workspace.getConfiguration()
   const baseURL = config.get<string>('baseURL')
   const apiPath = config.get<string>('applicationMgrAPIPath')

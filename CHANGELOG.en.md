@@ -1,5 +1,13 @@
 # Change Log
 
+## 0.0.6 - 2026-11-09
+
+- Added a unified runtime and cancellation lifecycle that clears old tasks, state, commands, and listeners when restarting the extension.
+- Reworked component auto-sync with a 2-second edit debounce, immediate manual-save syncing with a 500 ms throttle, cancellation of stale syncs, syncing on editor switches, and recovery after individual failures.
+- Improved component pushes with concise errors for compilation, source fetching, backup, and upload stages, plus timestamps in successful sync messages.
+- Improved cancellation and cleanup for requests, automatic login, component selection, and file operations, including reverse component lookup and workspace mapping migration.
+- Moved passive messages and progress to the status bar for 10 seconds, retained required interactive dialogs, and updated Chinese and English messages.
+
 ## 0.0.51 - 2026-11-09
 
 - Added `CHANGELOG.en.md` with English translations of all historical release notes.
