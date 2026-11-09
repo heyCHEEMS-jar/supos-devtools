@@ -1,6 +1,6 @@
 # supOS DevTools
 
-[简体中文](README.md) | [English](README.en.md)
+[简体中文](https://github.com/heyCHEEMS-jar/supos-devtools/blob/master/README.md) | [English](https://github.com/heyCHEEMS-jar/supos-devtools/blob/master/README.en.md)
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![SWC](https://img.shields.io/badge/SWC-F8C457?logo=swc&logoColor=black)
@@ -13,7 +13,7 @@ A VS Code extension for supOS programmable components, with remote code pulling 
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md).
+See [CHANGELOG.en.md](https://github.com/heyCHEEMS-jar/supos-devtools/blob/master/CHANGELOG.en.md).
 
 ## Installation
 
