@@ -10,7 +10,7 @@
   "Failed to write {0}: {1}": "{0} 写入失败：{1}",
   "Wrote {0}": "已写入 {0}",
   "Type hints are up to date": "类型提示已是最新",
-  "Type hints reloaded": "已重新加载类型提示",
+  "Extension restarted": "扩展已重启",
   "Please open a folder first": "请先打开一个文件夹",
   "Request failed: HTTP {0}": "请求失败：HTTP {0}",
   "Select Programmable Component": "选择可编程组件",
@@ -32,6 +32,11 @@
   "Please pull the programmable component first": "请先拉取可编程组件",
   "Component file does not exist. Please pull it again": "组件文件不存在，请重新拉取",
   "Synchronizing component {0}": "正在同步组件 {0}",
+  "Compilation failed. Check the syntax.": "编译失败，请检查语法",
+  "Failed to fetch source code. Try again.": "源码获取失败，请重试",
+  "Failed to back up source code. Check the path.": "源码备份失败，请检查路径",
+  "Failed to upload source code. Try again.": "源码上传失败，请重试",
+  "Failed to upload compiled code. Try again.": "编译产物上传失败，请重试",
   "Synchronized component {0}": "已同步组件 {0}",
   "Component code backup path is invalid or does not exist: {0}": "组件代码备份路径错误或不存在：{0}"
 }

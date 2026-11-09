@@ -2,7 +2,7 @@
   "name": "supos-devtools",
   "description": "%extension.description%",
   "displayName": "supOS DevTools",
-  "version": "0.0.51",
+  "version": "0.0.6",
   "author": "heyCHEEMS",
   "publisher": "heyCHEEMS",
   "license": "ISC",

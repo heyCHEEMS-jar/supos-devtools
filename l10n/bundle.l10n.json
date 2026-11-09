@@ -10,7 +10,7 @@
   "Failed to write {0}: {1}": "Failed to write {0}: {1}",
   "Wrote {0}": "Wrote {0}",
   "Type hints are up to date": "Type hints are up to date",
-  "Type hints reloaded": "Type hints reloaded",
+  "Extension restarted": "Extension restarted",
   "Please open a folder first": "Please open a folder first",
   "Request failed: HTTP {0}": "Request failed: HTTP {0}",
   "Select Programmable Component": "Select programmable component",
@@ -32,6 +32,11 @@
   "Please pull the programmable component first": "Please pull the programmable component first",
   "Component file does not exist. Please pull it again": "Component file does not exist. Please pull it again",
   "Synchronizing component {0}": "Synchronizing component {0}",
+  "Compilation failed. Check the syntax.": "Compilation failed. Check the syntax.",
+  "Failed to fetch source code. Try again.": "Failed to fetch source code. Try again.",
+  "Failed to back up source code. Check the path.": "Failed to back up source code. Check the path.",
+  "Failed to upload source code. Try again.": "Failed to upload source code. Try again.",
+  "Failed to upload compiled code. Try again.": "Failed to upload compiled code. Try again.",
   "Synchronized component {0}": "Synchronized component {0}",
   "Component code backup path is invalid or does not exist: {0}": "Component code backup path is invalid or does not exist: {0}"
 }
